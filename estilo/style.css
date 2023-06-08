@@ -40,6 +40,7 @@ main {
 }
 .img-prod {
     position: relative;
+    margin-bottom: 30px;
 }
 .top {
     position: absolute;
@@ -106,4 +107,15 @@ main {
 .scroll-top i:hover {
     background: #000;
     color: #fff;
+}
+@media (max-width: 480px) {
+    .text-prod a {
+        font-size: 0.7rem;
+        font-weight: 600;
+    }
+}
+@media (max-width: 1200px) {
+    .content {
+        grid-template-columns: repeat(2, 2fr);
+    }
 }
