@@ -114,8 +114,3 @@ main {
         font-weight: 600;
     }
 }
-@media (max-width: 1200px) {
-    .content {
-        grid-template-columns: repeat(2, 2fr);
-    }
-}
